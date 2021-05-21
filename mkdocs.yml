@@ -1,0 +1,122 @@
+# project information
+site_name: Datacenter Blueprint
+site_url: https://learn-srlinux.github.io/dc-blueprint/
+site_author: Jerrod Gerth
+site_description: >-
+  A customer-friendly blueprint for bulding Datacenter fabrics with Nokia SR Linux
+
+# page tree
+nav:
+  - Overview: index.md
+  - Fabric Design: 
+      - Basics: fabric/fabric-intro.md
+      - Considerations: fabric/fabric-considerations.md
+      - Examples:
+          - Example 1: fabric/examples/example-01.md
+          - Example 2: fabric/examples/example-02.md
+          - Example 3: fabric/examples/example-03.md
+  - Fabric Routing:
+      - Protocol Selection: routing/protocols.md
+      - BGP Design: routing/bgp-design.md
+      - BGP Configuration: routing/bgp-config.md
+      - Summary: routing/summary.md
+  - Fabric Management:
+      - CLI: mgmt/mgmt-cli.md
+      - gNMI: mgmt/mgmt-gnmi.md
+      - ZTP: mgmt/mgmt-ztp.md
+      - Telemetry: mgmt/mgmt-streaming.md
+      - Logging: mgmt/mgmt-logging.md
+
+  # Repository
+repo_name: learn-srlinux/dc-blueprint
+repo_url: https://github.com/learn-srlinux/dc-blueprint
+edit_uri: ""
+
+# configuration
+theme:
+  name: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - navigation.top
+    - navigation.instant
+    # - navigation.sections
+    # - navigation.tabs
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/learn-srlinux
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: "#"
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
