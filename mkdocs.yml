@@ -1,7 +1,7 @@
 # project information
 site_name: Datacenter Blueprint
 site_url: https://learn-srlinux.github.io/dc-blueprint/
-site_author: Jerrod Gerth
+site_author: Global Webscale Team
 site_description: >-
   A customer-friendly blueprint for bulding Datacenter fabrics with Nokia SR Linux
 
@@ -15,14 +15,16 @@ nav:
           - 3-stage Clos: fabric/examples/example-3stage.md
           - 5-stage Clos: fabric/examples/example-5stage.md
   - Fabric Routing:
+      - Introduction: routing/routing-intro.md
       - Protocol Selection: routing/protocols.md
       - BGP Design: routing/bgp-design.md
       - BGP Configuration: routing/bgp-config.md
       - Summary: routing/summary.md
   - Fabric Management:
+      - Basics: mgmt/mgmt-basics.md
+      - ZTP: mgmt/mgmt-ztp.md
       - CLI: mgmt/mgmt-cli.md
       - gNMI: mgmt/mgmt-gnmi.md
-      - ZTP: mgmt/mgmt-ztp.md
       - Telemetry: mgmt/mgmt-streaming.md
       - Logging: mgmt/mgmt-logging.md
   - Further Reading: links.md

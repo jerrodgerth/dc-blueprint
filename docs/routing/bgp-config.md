@@ -163,7 +163,10 @@ For example, a maintenance group can consist of one or more BGP neighbors and/or
 Using Maintenance Mode in a Clos data center fabric will allow network operators to take advantage of the multipath capabilities of said architecture while minimizing downtime.
 If we reference **Figure 3-4**, we can apply maintenance mode one of the spines in AS 64550.  
 
-![**Figure 3-4**](_images/fig-03-04.png)
+<figure>
+  <img src="/_images/fig-03-04.png" width="600" />
+  <figcaption>Figure 3-4</figcaption>
+</figure>
 
 In SR Linux systems, constructs called maintenance groups are used to associate specific objects, such as entire network instances or VRFs, BGP peer groups and neighbors with a maintenance profile.
 We can create a maintenance profile to specify certain policy changes to a BGP peer group or neighbor.
@@ -211,7 +214,10 @@ Let’s consider two use cases:
 In either case, RFC5549 can solve the need for transition by providing a standard to advertise IPv4 routes using IPv6 next hops.
 Each interface between BGP peers only needs one or more IPv6 interfaces defined. 
 
-![**Figure 3-5**](_images/fig-03-05.png)
+<figure>
+  <img src="/_images/fig-03-05.png" width="600" />
+  <figcaption>Figure 3-5</figcaption>
+</figure>
 
 In order to route and forward IPv4 packets over an IPv6 network, the data center node most support the following:
 
