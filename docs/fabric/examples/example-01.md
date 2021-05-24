@@ -1,2 +1,0 @@
-# Fabric Example #1
-

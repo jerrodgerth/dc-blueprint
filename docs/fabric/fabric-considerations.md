@@ -54,4 +54,4 @@ For example, a Broadcom Tomahawk3 ASIC supports up to 128 100G ports on a single
 This means a simple spine/leaf fabric with Tomahawk3 at the spine could support up to 128 leaf switches.
 Factor in multi-stage designs and it is easy to see how the largest networks can use these platforms to scale ecoonomically.
 
-Next, let's consider a few example networks and the associated design options.
+Next, let's consider two example networks.

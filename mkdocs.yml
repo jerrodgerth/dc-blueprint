@@ -12,9 +12,8 @@ nav:
       - Basics: fabric/fabric-intro.md
       - Considerations: fabric/fabric-considerations.md
       - Examples:
-          - Example 1: fabric/examples/example-01.md
-          - Example 2: fabric/examples/example-02.md
-          - Example 3: fabric/examples/example-03.md
+          - 3-stage Clos: fabric/examples/example-3stage.md
+          - 5-stage Clos: fabric/examples/example-5stage.md
   - Fabric Routing:
       - Protocol Selection: routing/protocols.md
       - BGP Design: routing/bgp-design.md
@@ -26,8 +25,9 @@ nav:
       - ZTP: mgmt/mgmt-ztp.md
       - Telemetry: mgmt/mgmt-streaming.md
       - Logging: mgmt/mgmt-logging.md
+  - Further Reading: links.md
 
-  # Repository
+# git repository
 repo_name: learn-srlinux/dc-blueprint
 repo_url: https://github.com/learn-srlinux/dc-blueprint
 edit_uri: ""
