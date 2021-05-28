@@ -173,7 +173,7 @@ We can create a maintenance profile to specify certain policy changes to a BGP p
 An example policy will prepend additional AS’s in the path to gracefully force traffic to the redundancy spine in AS 64550.
 When maintenance mode is enabled under the group, the policy is put into effect to cause the desired action. 
 
-Refer to the [Appendix](appendix.md) for more examples for configuring maintenance mode.
+Refer to the [Maintenance Mode](../appendix/maintenance.md) section of the Appendix for more examples for configuring maintenance mode.
 
 ###	Network Addressing
 

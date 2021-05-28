@@ -1,6 +1,6 @@
 # project information
 site_name: Datacenter Blueprint
-site_url: https://learn-srlinux.github.io/dc-blueprint/
+site_url: https://jerrodgerth.github.io/dc-blueprint/
 site_author: Global Webscale Team
 site_description: >-
   A customer-friendly blueprint for bulding Datacenter fabrics with Nokia SR Linux
@@ -28,11 +28,15 @@ nav:
       - Telemetry: mgmt/mgmt-streaming.md
       - Logging: mgmt/mgmt-logging.md
   - Further Reading: links.md
+  - Appendix:
+      - PMTUD: appendix/pmtud.md
+      - Maintenance Mode: appendix/maintenance.md
+      - Full Configs: appendix/configs.md
 
 # git repository
-repo_name: learn-srlinux/dc-blueprint
-repo_url: https://github.com/learn-srlinux/dc-blueprint
-edit_uri: ""
+repo_name: jerrodgerth/dc-blueprint
+repo_url: https://github.com/jerrodgerth/dc-blueprint
+edit_uri: "edit/master/docs/"
 
 # configuration
 theme:
@@ -49,6 +53,7 @@ theme:
   # Default values, taken from mkdocs_theme.yml
   language: en
   features:
+    - navigation.expand
     - navigation.top
     - navigation.instant
     # - navigation.sections
@@ -69,9 +74,9 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
+  # favicon: assets/images/favicon.png
   icon:
-    logo: logo
+    repo: fontawesome/brands/github
 
 # Plugins
 plugins:
@@ -83,7 +88,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/learn-srlinux
+      link: https://github.com/jerrodgerth
 
 # Extensions
 markdown_extensions:

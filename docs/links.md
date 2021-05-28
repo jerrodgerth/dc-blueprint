@@ -1,6 +1,6 @@
 # Further Reading by section:
 
-## Fabric Design Considerations
+## Fabric Design
 
 * [Clos network @ Wikipedia](https://en.wikipedia.org/wiki/Clos_network)
 * [A study of non-blocking switching networks](https://ieeexplore.ieee.org/document/6770468)
@@ -8,6 +8,6 @@
 * [Dropbox -- The scalable fabric behind our growing data center network](https://dropbox.tech/infrastructure/the-scalable-fabric-behind-our-growing-data-center-network)
 
 
-## Fabric Routing Design
+## Fabric Routing
 
 * [Routing Design for Large Scale Data Centers: BGP is a Better IGP](https://archive.nanog.org/meetings/nanog55/presentations/Monday/Lapukhov.pdf)

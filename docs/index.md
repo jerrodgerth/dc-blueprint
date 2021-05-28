@@ -9,7 +9,7 @@ Topics like building a lab with SR Linux software and using EVPN & VXLAN for net
 This blueprint isn’t meant as a replacement for the full set of User Guides published with each release of SR Linux software.
 The User Guide provide great detail for all of the supported features of SR Linux.
 
-### Who should read this?
+## Who should read this?
 
 The target audience is a network architect or SRE (Site Reliability Engineer) looking build a data center fabric using Nokia SR Linux and IXR switches.
 
@@ -19,7 +19,7 @@ There are three major components of the Nokia Data Center Fabric solution.
 A brief introduction is provided here and more information can be found at <https://www.nokia.com/networks/dc-fabric/>
 
 ### SR Linux
-Nokia SR Linux is a new NOS developed specifically to meet the needs of hyper scale customers and yet be consumable by any customer regardless of size.
+Nokia SR Linux is a new NOS developed specifically to meet the needs of hyper-scalers and yet be consumable by any customer regardless of size.
 
 > Nokia SR Linux opens up the future for cloud builder and hyper-scaler data center networking teams.
 > Its model-driven foundation is designed from the ground up with a management architecture that meets today’s demands for scalability, visibility, cost-efficiency and ease of operations.
