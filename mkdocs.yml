@@ -21,12 +21,13 @@ nav:
       - BGP Configuration: routing/bgp-config.md
       - Summary: routing/summary.md
   - Fabric Management:
-      - Basics: mgmt/mgmt-basics.md
+      - Introduction: mgmt/mgmt-intro.md
       - ZTP: mgmt/mgmt-ztp.md
       - CLI: mgmt/mgmt-cli.md
       - gNMI: mgmt/mgmt-gnmi.md
       - Telemetry: mgmt/mgmt-streaming.md
       - Logging: mgmt/mgmt-logging.md
+      - Summary: mgmt/mgmt-summary.md
   - Further Reading: links.md
   - Appendix:
       - PMTUD: appendix/pmtud.md

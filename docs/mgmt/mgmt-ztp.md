@@ -1,4 +1,6 @@
-# Zero Touch Provisioning
+# Fabric Management
+
+## Zero Touch Provisioning
 
 * Quick blurb on the need for ZTP
 * Highlight the need to remain completely flexible to allow for operator to have complete control over what gets executed and installed during ZTP

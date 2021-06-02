@@ -1,4 +1,6 @@
-# CLI
+# Fabric Management
+
+## CLI
 
 * Blurb about the need for the CLI, although reduced still plays a very important role in troubleshooting
 * Should not be used for scripting, should be no reliance on understanding CLI show commands to retrieve data from device
