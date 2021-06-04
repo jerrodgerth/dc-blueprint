@@ -37,7 +37,7 @@ nav:
 # git repository
 repo_name: jerrodgerth/dc-blueprint
 repo_url: https://github.com/jerrodgerth/dc-blueprint
-edit_uri: "edit/master/docs/"
+edit_uri: "blob/master/docs/"
 
 # configuration
 theme:
