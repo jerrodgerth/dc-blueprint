@@ -1,4 +1,6 @@
-# Introduction
+# Data Center Fabric Blueprint
+
+## Introduction
 
 Welcome to the Nokia Data Center Blueprint.
 The goal of this blueprint is to review many of the important design considerations when building a data center fabric and provide some suggestions.
@@ -13,7 +15,7 @@ The User Guide provide great detail for all of the supported features of SR Linu
 
 The target audience is a network architect or SRE (Site Reliability Engineer) looking build a data center fabric using Nokia SR Linux and IXR switches.
 
-## Nokia Data Center Fabric
+## Nokia Data Center Fabric Solution
 
 There are three major components of the Nokia Data Center Fabric solution.
 A brief introduction is provided here and more information can be found at <https://www.nokia.com/networks/dc-fabric/>

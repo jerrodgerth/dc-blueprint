@@ -29,7 +29,7 @@ gNMI SUBSCRIBE RPC defines three subscription modes:
 * **STREAM:** A subscription to a server is created for a given path, the server is then expected to send data back to the client for that given path in one of three ways, `on_change`, `on_sample` or `target_defined`
 
 
-### gNMI Configuration
+### gNMI Server Configuration
 
 ```shell
 --{ + running }--[ system gnmi-server ]--
@@ -81,6 +81,107 @@ If set to :: then it will listen on all IPv4 and IPv6 addresses.
 **`unix-socket`:** specifies whether the RPC should be authenticated against a user using aaa_mgr
 
 
-### gNMI GET Example
+### gNMI Examples
+
+!!!note
+    The [gNMIc](https://gnmic.kmrd.dev) client is used for each of these examples.  gNMIc is one of several open source gNMI clients available.
 
 
+#### GET Example
+
+```shell
+demo@demo-sf03:~$ gnmic -a 172.20.20.2:57400 -e json_ietf -u admin -p admin --skip-verify get --path "/system/name/host-name"
+
+Get Response:
+[
+  {
+    "timestamp": 1604412647649136431,
+    "time": "2020-11-03T15:10:47.649136431+01:00",
+    "updates": [
+      {
+        "Path": "srl_nokia-system:system/srl_nokia-system-name:name/host-name",
+        "values": {
+          "srl_nokia-system:system/srl_nokia-system-name:name/host-name": "srl1"
+        }
+      }
+    ]
+  }
+]
+```
+
+
+#### SET Example
+
+```shell
+demo@demo-sf03:~$ gnmic -a 172.20.20.2:57400 -e json_ietf -u admin -p admin --skip-verify set --replace /system/name/host-name:::string:::test1
+
+Set Response:
+{
+  "timestamp": 1604412698946981257,
+  "time": "2020-11-03T15:11:38.946981257+01:00",
+  "results": [
+    {
+      "operation": "REPLACE",
+      "path": "system/name/host-name"
+    }
+  ]
+}
+```
+
+
+#### SUBSCRIBE `once` Example
+
+```shell
+demo@demo-sf03:~$ gnmic -a 172.20.20.2:57400 -e json_ietf -u admin -p admin --skip-verify subscribe --mode once --path "/system/name/host-name"
+
+{
+  "source": "srl1:57400",
+  "subscription-name": "default",
+  "timestamp": 1604412764363675969,
+  "time": "2020-11-03T15:12:44.363675969+01:00",
+  "updates": [
+    {
+      "Path": "srl_nokia-system:system/srl_nokia-system-name:name/host-name",
+      "values": {
+        "srl_nokia-system:system/srl_nokia-system-name:name/host-name": "srl1"
+      }
+    }
+  ]
+}
+```
+
+
+#### SUBSCRIBE `on_change` Example
+
+```shell
+demo@demo-sf03:~$ gnmic -a 172.20.20.2:57400 -e json_ietf -u admin -p admin --skip-verify subscribe --mode stream --stream-mode on_change --path "/interface[name=ethernet-1/1]/statistics/in-octets"
+
+{
+  "source": "srl1:57400",
+  "subscription-name": "default",
+  "timestamp": 1604412831614958694,
+  "time": "2020-11-03T15:13:51.614958694+01:00",
+  "updates": [
+    {
+      "Path": "srl_nokia-interfaces:interface[name=ethernet-1/1]/statistics/in-octets",
+      "values": {
+        "srl_nokia-interfaces:interface/statistics/in-octets": "16170673"
+      }
+    }
+  ]
+}
+{
+  "source": "srl1:57400",
+  "subscription-name": "default",
+  "timestamp": 1604412833881891643,
+  "time": "2020-11-03T15:13:53.881891643+01:00",
+  "updates": [
+    {
+      "Path": "srl_nokia-interfaces:interface[name=ethernet-1/1]/statistics/in-octets",
+      "values": {
+        "srl_nokia-interfaces:interface/statistics/in-octets": "16170778"
+      }
+    }
+  ]
+}
+```

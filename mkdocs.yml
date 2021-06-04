@@ -7,7 +7,7 @@ site_description: >-
 
 # page tree
 nav:
-  - Overview: index.md
+  - Introduction: index.md
   - Fabric Design: 
       - Basics: fabric/fabric-intro.md
       - Considerations: fabric/fabric-considerations.md
@@ -25,14 +25,8 @@ nav:
       - ZTP: mgmt/mgmt-ztp.md
       - CLI: mgmt/mgmt-cli.md
       - gNMI: mgmt/mgmt-gnmi.md
-      - Telemetry: mgmt/mgmt-streaming.md
       - Logging: mgmt/mgmt-logging.md
       - Summary: mgmt/mgmt-summary.md
-  - Further Reading: links.md
-  - Appendix:
-      - PMTUD: appendix/pmtud.md
-      - Maintenance Mode: appendix/maintenance.md
-      - Full Configs: appendix/configs.md
 
 # git repository
 repo_name: jerrodgerth/dc-blueprint

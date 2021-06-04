@@ -13,5 +13,4 @@ This section of the datacenter blueprint will cover several of the key topics fo
 * [Zero Touch Provisioning](mgmt-ztp.md)
 * [CLI](mgmt-cli.md)
 * [gNMI](mgmt-gnmi.md)
-* [Telemetry](mgmt-streaming.md)
 * [Logging](mgmt-logging.md)
