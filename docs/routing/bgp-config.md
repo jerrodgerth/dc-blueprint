@@ -166,7 +166,7 @@ Using Maintenance Mode in a Clos data center fabric will allow network operators
 If we reference **Figure 3-4**, we can apply maintenance mode one of the spines in AS 64550.  
 
 <figure>
-  <img src="/_images/fig-03-04.png" width="600" />
+  <img src="../_images/fig-03-04.png" width="600" />
   <figcaption>Figure 3-4</figcaption>
 </figure>
 
@@ -217,7 +217,7 @@ In either case, RFC5549 can solve the need for transition by providing a standar
 Each interface between BGP peers only needs one or more IPv6 interfaces defined. 
 
 <figure>
-  <img src="/_images/fig-03-05.png" width="600" />
+  <img src="../_images/fig-03-05.png" width="600" />
   <figcaption>Figure 3-5</figcaption>
 </figure>
 

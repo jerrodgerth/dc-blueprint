@@ -10,7 +10,7 @@ The data center edge routers in this design are meant for north/south traffic th
 East-West traffic between nodes in the same data center flows across the spine and/or superspine layer.
 
 <figure>
-  <img src="/_images/fig-03-02.png" width="600" />
+  <img src="../_images/fig-03-02.png" width="600" />
   <figcaption>Figure 3-2</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ An alternative approach to assigning each node its own AS is to use the followin
 * Assign a common AS for the Super Spine 
 
 <figure>
-  <img src="/_images/fig-03-03.png" width="600" />
+  <img src="../_images/fig-03-03.png" width="600" />
   <figcaption>Figure 3-3</figcaption>
 </figure>
 
