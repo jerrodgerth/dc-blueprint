@@ -33,7 +33,7 @@ The data center fabric must have the ability to minimize the effect of losing a 
 Consider a simple spine-leaf data center fabric in **Figure 3-1**.
 
 <figure>
-  <img src="/_images/fig-03-01.png" width="600" />
+  <img src="_images/fig-03-01.png" width="600" />
   <figcaption>Figure 3-1</figcaption>
 </figure>
 
