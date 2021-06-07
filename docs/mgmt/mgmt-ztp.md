@@ -40,21 +40,21 @@ This is the ZTP process based on factory-enabled options:​
 * Nodes, HTTP file servers, and DHCP server in the same subnet (**Figure 4-1**)
 
 <figure>
-  <img src="/_images/fig-04-01.png" width="600" />
+  <img src="../_images/fig-04-01.png" width="600" />
   <figcaption>Figure 4-1</figcaption>
 </figure>
 
 * HTTP file servers and DHCP server in the same subnet, separate from the nodes (**Figure 4-2**)
 
 <figure>
-  <img src="/_images/fig-04-02.png" width="600" />
+  <img src="../_images/fig-04-02.png" width="600" />
   <figcaption>Figure 4-2</figcaption>
 </figure>
 
 * Nodes, HTTP file servers, and DHCP server in different subnets (**Figure 4-3**)
 
 <figure>
-  <img src="/_images/fig-04-03.png" width="600" />
+  <img src="../_images/fig-04-03.png" width="600" />
   <figcaption>Figure 4-3</figcaption>
 </figure>
 

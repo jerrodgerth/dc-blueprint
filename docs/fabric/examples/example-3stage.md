@@ -11,7 +11,7 @@
 ### Network Diagram
 
 <figure>
-  <img src="/_images/3stage.png" width="600" />
+  <img src="../_images/3stage.png" width="600" />
   <figcaption>3-stage Clos</figcaption>
 </figure>
 

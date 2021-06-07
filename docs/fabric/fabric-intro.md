@@ -13,7 +13,7 @@ The aggregation and core layers were often large chassis-based platforms.
 Layer 2 and Layer 3 traffic was segregated at the aggregation layer.
 
 <figure>
-  <img src="/_images/fig-02-01.png" width="600" />
+  <img src="../_images/fig-02-01.png" width="600" />
   <figcaption>Figure 2-1</figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ Some vendors and standards bodies pursued solutions such as TRILL and SPB but th
 In the end, as in many other instances, rather than creating a new protocol the market fell back on IP routing and standard routing protocols such as BGP.
 
 <figure>
-  <img src="/_images/fig-02-02.png" width="600" />
+  <img src="../_images/fig-02-02.png" width="600" />
   <figcaption>Figure 2-2</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ To support Layer 2 domains beyond this limit, network virtualization technologie
 This is an important topic and will be discussed in a later section.
 
 <figure>
-  <img src="/_images/fig-02-03.png" width="600" />
+  <img src="../_images/fig-02-03.png" width="600" />
   <figcaption>Figure 2-3</figcaption>
 </figure>
 
