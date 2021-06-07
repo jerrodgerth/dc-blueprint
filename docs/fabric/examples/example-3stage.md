@@ -3,7 +3,7 @@
 
 ### Overview
 
-* A 3-stage Clos and a [5-stage Clos](./example-5stage.md) are provided as examples.  These designs provide the basic concepts and can be extended if needed.
+* A 3-stage Clos and a [5-stage Clos](example-5stage.md) are provided as examples.  These designs provide the basic concepts and can be extended if needed.
 * For simplicity, both examples are built with [7220-IXR-D series](https://onestore.nokia.com/asset/i/207599) switches which are built on the Trident3 chipset.
 * These examples are not exhaustive. There are many different ways to build Clos networks depending on the design goals.
 

@@ -1,8 +1,10 @@
-# Protocol Selection
+# Fabric Routing
+
+## Protocol Selection
 
 Most organizations already use several different routing protocols so what protocol is best for a data center fabric?
 This topic has been covered by many different network operators and vendors over the last few years.
-*add some links?*
+[Routing Design for Large Scale Data Centers: BGP is a Better IGP](https://archive.nanog.org/meetings/nanog55/presentations/Monday/Lapukhov.pdf) and [RFC 7938 - Use of BGP for Routing in Large-Scale Data Centers](https://tools.ietf.org/html/rfc7938)
 The concensus choice for a data center routing protocol is to use BGP and specifically eBGP.
 (Certainly other protocols, such as OSPF or IS-IS, could be used and are supported by SR Linux but the focus of the document will be on BGP.)
 BGP lends itself well to the data center use case for several key reasons:
@@ -54,7 +56,7 @@ As mentioned before, OSPF or IS-IS could be used to build data center networks b
 (Detailing of these differences is beyond the scope of this project, but please *reach out* if you would like to discuss further.)
 
 Using eBGP specifically, along with well-designed use of private AS numbering, makes BGP particularly well suited to large scale deployments.
-These considerations will be discussed in more detail in the [BGP Configuration]() section.
+These considerations will be discussed in more detail in the [BGP Configuration](bgp-config.md) section.
 
 ### Multiprotocol Support
 

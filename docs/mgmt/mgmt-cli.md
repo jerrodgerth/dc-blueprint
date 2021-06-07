@@ -78,8 +78,13 @@ Here are some additional notes regarding the checkpoint functionality:
 
 ### Features
 
-* **Output Modifiers.** 
-
+* **Output Modifiers.** Advanced Linux output modifiers `grep`, `more`, `wc`, `head`, and `tail` are exposed directly through the SR Linux CLI.
+* **Suggestions & List Completions.** As commands are typed suggestions are provided.  Tab can be used to list options available.
+* **Output Format.** When displaying info from a given datastore, the output can be formatted in one of three ways:
+    * *Text:* this is the default out, it is JSON-like but not quite JSON.
+    * *JSON:* the output will be in JSON format.
+    * *Table:* The CLI will try to format the output in a table, this doesn’t work for all data but can be very useful.
+* **Aliases.** An alias is used to map a CLI command to a shorter easier to remember command.  For example, if a command is built to retrieve specific information from the state datastore and filter on specific fields while formatting the output as a table the CLI command could get quite long.  An alias could be configured so that a shorter string of text could be used to execute that long CLI command.  Alias can be further enhanced to be dynamic which makes them extremely powerful because they are not limited to static CLI commands.
 
 
 ### Plugins

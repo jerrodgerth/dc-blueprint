@@ -9,7 +9,7 @@ site_description: >-
 nav:
   - Introduction: index.md
   - Fabric Design: 
-      - Basics: fabric/fabric-intro.md
+      - Introduction: fabric/fabric-intro.md
       - Considerations: fabric/fabric-considerations.md
       - Examples:
           - 3-stage Clos: fabric/examples/example-3stage.md

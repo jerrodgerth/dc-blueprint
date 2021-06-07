@@ -54,4 +54,4 @@ These leaf/spine networks can also become a building block of larger networks by
 Multi-stage Clos networks are quite common, especially in large data centers.
 
 [Section 3.2 of RFC 7938](https://tools.ietf.org/html/rfc7938#section-3.2) provides more information about Clos topologies for the data center.
-[Facebook](https://engineering.fb.com/2019/03/14/data-center-engineering/f16-minipack/), [Dropbox](https://dropbox.tech/infrastructure/the-scalable-fabric-behind-our-growing-data-center-network) and [others](../links.md) have written extensively on their network design.
+[Facebook](https://engineering.fb.com/2019/03/14/data-center-engineering/f16-minipack/), [Dropbox](https://dropbox.tech/infrastructure/the-scalable-fabric-behind-our-growing-data-center-network) and others have written extensively on their network design.
