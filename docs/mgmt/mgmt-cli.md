@@ -51,12 +51,29 @@ If application validation fails, the commit fails and no configuration will be a
 If the forwarding plane is unable to accept the configuration then a graceful roll-back is done immediately.
 Examples are exhaustion of resources or the hardware cannot be programmed – this will result in a commit failure.
 
+#### Checkpoints
 
-### Usage
+An operator may define their own checkpoint prior to committing a change to the device.  This allows the operator to then roll back to a known configuration in the event of failure of new configuration changes.
+
+* SRLinux allows for 10 checkpoints to be created by default but may be configured to save more up to 255 checkpoints. 
+    * If the max-checkpoints value is changed to anything lower than the default 10 and there are existing 10+ checkpoints saved, the system will delete the older checkpoints required to meet new max-checkpoints value.
+* When an operator creates a check point, they may specify the following:
+    * Name of the checkpoint.
+    * Comment to be added to a checkpoint.
+* When a checkpoint is created the following fields are also stored above and beyond the configured parameters:
+    * Created date
+    * Release running when created
+    * Username of user who created it
+    * Size of the checkpoint
+    * ID: checkpoints are 0 indexed with 0 being the newest, any new checkpoint created increases the index of all other checkpoints by 1.	
 
 
-### Advanced
+### Features
+
+* **Output Modifiers.** 
+
 
 
 ### Plugins
 
+add a section or reference to plugins?
