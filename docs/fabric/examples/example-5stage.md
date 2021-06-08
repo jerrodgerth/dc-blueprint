@@ -4,7 +4,7 @@
 ### Network Diagram
 
 <figure>
-  <img src="../_images/5stage.png" width="600" />
+  <img src="../../../_images/5stage.png" width="600" />
   <figcaption>5-stage Clos</figcaption>
 </figure>
 
